@@ -1,0 +1,4 @@
+A version control system used to track changes in source code.
+Enables you to revert to previous versions if needed.
+Allows multiple users to work on a project at the same time.
+Gives possibility to develop new features without affecting the main code.
