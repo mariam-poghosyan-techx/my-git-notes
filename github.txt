@@ -1,0 +1,4 @@
+A cloud-based platform for hosting Git repositories.
+Facilitate collaboration with features like pull requests and code reviews.
+Allows sharing code publicly or privately.
+Maintains a history of change, who made them amd why.
