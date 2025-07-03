@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact us</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name <span aria-hidden="true"></span></label>
+                <input type="text" id="name" name="name" required /><br>
+
+                <label for="email">Email <span aria-hidden="true"></span></label>
+                <input type="email" id="email" name="email" required /><br>
+
+                <label for="age">Age <span aria-hidden="true"></span></label>
+                <input type="number" id="age" name="age" min="1" max="120" required /><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Details</legend>
+                <label for="topic">Topic </label>
+                <select id="topic" name="topic">
+                    <option value="general">General</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select><br>
+                
+
+                <label for="message">Message <span aria-hidden="true"></span></label>
+                <textarea id="message" name="message" required></textarea><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Prefered Contact method</legend>
+               
+                <input type="radio" id="contact-email" name="contact-method" value="email" required />
+                <label  for="contact-email">Email</label><br>
+
+                <input type="radio" id="contact-phone" name="contact-method" value="phone" required />
+                <label  for="contact-phone">Phone</label><br>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+</body>
+</html>
